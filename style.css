@@ -1,6 +1,19 @@
 body{
-  background-color: lightcoral
+  background-color: hotpink
 }
 h1{
   color: aqua
+}
+h2{
+  font-family: sans-serif;
+  font-style: italic;
+}
+meat{
+  background-color:rgb(239, 138, 138)
+}
+vegetable{
+  background-color: lightgreen
+}
+dairy{
+  background-color: lightyellow
 }

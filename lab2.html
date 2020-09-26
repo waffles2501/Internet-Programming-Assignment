@@ -6,15 +6,45 @@
     <link href="style.css" rel="stylesheet" type="text/css"
     />
   </head>
+  <style>
+    .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    }
+
+    .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    }
+
+    .item1 {
+    grid-column: 2 / span 2;
+    grid-row: 1 /span 3;
+    
+    }
+
+    .item2 {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    }
+  </style>
   <body>
     <header>
       <h1> CPSC 2125 Lab 2 </h1>
     </header>
+    <div class="grid-container">
+    <div class="grid-item item1"></div>
+    <div class="grid-item item2">
       <nav>
         <li><A href="index.html"> Home</A></li>
         <li><A href="lab1.html"> Lab 1</A></li>
-        <li><A href="lab3.html"> Lab 3</A></li>
-      </nav>
+        <li><A href="lab2.html"> Lab 3</A></li>
+        <li><A href="lab4.html"> Lab 4</A></li>
+      </nav> </div>
       <main>
       </main>
       <footer>
