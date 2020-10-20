@@ -1,9 +1,16 @@
 body{
-  background-color: hotpink;
+  background-color: black;
   text-align: left;
 }
+A{
+  text-decoration: none;
+  color: black;
+}
+A:hover{
+  background-color: white;
+}
 h1{
-  color: aqua
+  color: red
 }
 h2{
   font-family: sans-serif;
@@ -14,6 +21,12 @@ h5{
   font-size: 18px;
   margin-top: 10;
   margin-bottom: 10;
+}
+lab6Header{
+  color:  black;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 meat{
   background-color:rgb(239, 138, 138)
@@ -27,7 +40,7 @@ dairy{
 .grid-container {
   display: grid;
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: red;
   padding: 10px;
   }
 
@@ -47,4 +60,40 @@ dairy{
   .item2 {
   grid-column: 1;
   grid-row: 1 / span 3;
+  }
+
+  .largeGridItem1{
+    grid-column: 1 /span 3;
+    grid-row: 1;
+    background-color: lightblue
+  }
+  
+  .largeGridItem2{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    background-color: lime;
+  }
+
+  .largeGridItem3{
+    grid-column: 1 /span 2;
+    grid-row: 3 /span 2;
+    background-color: hotpink;
+  }
+
+  .largeGridItem4{
+    grid-column: 1 / span 2;
+    grid-row: 5 /span 2;
+    background-color: yellow
+  }
+
+  .largeGridItem5{
+    grid-column: 3;
+    grid-row: 3 / span 4;
+    background-color: plum
+  } 
+
+  .largeGridItem6{
+    grid-column: 1 / span 3;
+    grid-row: 7;
+    background-color: orange
   }
